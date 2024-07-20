@@ -1,0 +1,158 @@
+.property_detail{
+    width: 70%;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.desc_header{
+  margin-top: 3rem;
+}
+.property_name_price{
+    display: flex;
+    justify-content: space-between;
+}
+.property_name_price h2{
+    font-size: 45px;
+    color: #6F00FF;
+}
+.property_name_price p{
+    font-size: 22px;
+    color: #555;
+}
+.property_detail .location{
+    font-size: 24px;
+    margin-top: 10px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.property_detail .service{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.service p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.service p .icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.property_detail hr{
+    color: #666;
+}
+.property_detail .property-img{
+    width: 900px;
+    height: 500px;
+    margin-top: 15px;
+}
+.property_detail .desc{
+    margin-top: 15px;
+    font-weight: 20px;
+}
+.features{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.feature h4{
+  margin-top: 5px;
+  font-size: 18px;
+}
+.feature p{
+  font-size: 16px;
+  color: #666;
+}
+
+.agent h2{
+    margin-top: 4rem;
+    text-align: center;
+}
+.agent_details{
+    display: flex;
+    padding-inline: 100px;
+    gap: 3rem;
+}
+.agent_details .left{
+    display: flex;
+    flex-direction: column;
+}
+.left img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.left h3{
+    text-align: start;
+    margin-top: 10px;
+}
+
+
+.contact-form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin-top: 5rem; */
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  .contact-form form div {
+    margin-bottom: 15px;
+  }
+  .names {
+    display: flex;
+  }
+  .contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form form input,
+  .contact-form form textarea {
+    width: calc(50% - 25px);
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form form input[type="email"],
+  .contact-form form textarea {
+    width: 95%;
+  }
+  
+  .contact-form form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3f00ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  

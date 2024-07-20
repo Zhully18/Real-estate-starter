@@ -1,0 +1,35 @@
+.category{
+    margin-top: 5px;
+    background-color: #f9f9f9;
+}
+.category h1{
+    text-align: center;
+}
+.category_list{
+    display: flex;
+    place-content: center;
+    margin-top: 15px;
+    background: #3f00ff;
+    width: 780px;
+    margin-left: 15rem;
+    border-radius: 30px;
+    color: #fff;
+}
+.category_list_item .name{
+    display: inline-block;
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.category_list_item .name p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.category_list_item .clicked{
+    border-radius: 30px;
+    background-color: #edebeb;
+    color: #000;
+}
